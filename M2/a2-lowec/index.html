@@ -1,0 +1,117 @@
+<DOCTYPE html>
+<html id="home">
+<head>
+    <meta>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Casey Lowe</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header> <h1>Casey Lowe</h1>
+    </header>
+    <main>
+        <nav> 
+            <a href=index.html> Home</a>
+            <a href=contact.html> Contact</a>
+        </nav> 
+        <section>
+            <h2>Web Development Concepts</h2>
+            <article>
+                <h3>Web Servers</h3>
+                <p>
+                    The term <strong>index</strong> can be related to both websites and servers in very similar fashions. 
+                    Essentially in both cases this term referenced the "homepage" of the server/website. 
+                    This home page or index can be representing anything from a particular individual, a group or organization, or a company. 
+                    Multiple companies use this as a default home page whenever their employees log onto their servers or VPN to their work connections. 
+                </p>   
+                <p>
+                    After loading a website from either your local computer or from a directory, you can use the browser's Web Inspector Network tab to take a deeper dive into the elements of the webpage. 
+                    This tab will show you all the files that are being loaded into the website that you are looking at.
+                    Some of the information with each of these files is the loading sequence of each of the items including the item that initiates the specific sequence and the amount of time it takes to load the element. 
+                    There is significantly less information that is shown when performing this exercise from a local file versus a live website. 
+                    The request and response headers are significantly more detailed in looking at a website online versus a local file. 
+                    For example the response header includes a "cookie" section that is not included in the local file information. 
+                </p>
+                <p>
+                    In order to properly explain the differences here we must first state what the status 200 is meant to tell you. 
+                    When a file linked inside of a website gives you a status of 200 it is intended to tell you that the response received is OK. 
+                    This tells you that the request was successful and has all the information needed. 
+                    The files main.css and main.js do not receive a 200 <strong>status code</strong> because they were not successful in receiving the information needed to "launch" them. 
+                    Since the current writing for these pages are being done in HTML versus CSS or JavaScript there is nothing in the main files to be "read" which in turn in insufficient information to do anything with the files.
+                    Both files main.css and main.js receive the <strong>status code</strong> 404 which means that the resource that it is looking for was not found.  
+                </p>
+                <p>
+                    A URL has multiple parts, but the main parts we are focusing on are the <strong>scheme</strong>, the <strong>subdomain</strong>, the <strong>host domain</strong>, and the <strong>resource</strong>. 
+                    The <strong>scheme</strong>, also referred to as it's <strong>protocol</strong>, is the initial part of the URL. 
+                    An example of this can include, HTTP or HTTPS. 
+                    This <strong>scheme</strong> sets up the rules that in turn decide how files built into the website/URL are displayed, formatted, and transferred across the internet. 
+                    The <strong>subdomain</strong> is the more recognizable portion of a URL for those in a technical and nontechnical field. 
+                    The most common <strong>subdomain</strong> seen throughout the web is "www".
+                    The <strong>subdomain</strong> helps to specify the type of resource that the browser being used will be delivering when sending the request.
+                    The <strong>host domain</strong> name is what can be referred to as the name of the website being requested. 
+                    An example of this would be, http://www.google.com/, where "google" is the <strong>host domain</strong> or the name of the website. 
+                    Alternatively, the <strong>host domain</strong> can also be the IP address of the particular site being requested. 
+                    This was a normal practice in the "early stages" of the internet prior to it's overall purpose being changed for public consumption where now names/words are used instead.
+                    In the example of our website that includes our assignments, below are the parts of this URL: https://web.engr.oregonstate.edu/~lowecas/a1-lowec/
+                    The <strong>scheme</strong> is https://.
+                    The <strong>subdomains</strong> are web and engr.
+                    The <strong>domain</strong> is oregonstate.edu.
+                    The <strong>resource</strong> includes folder/file name(s).
+                </p>
+            </article>
+            <article>
+                <h3>Frontend Design</h3>
+                <p>
+                    Frontend design as a concept is ultimately about creating the most enjoyable and efficient experience for your users or customers. 
+                    This experience for the user includes the overal design of the website including the graphical user-interface or GUI.
+                    This user-interface should follow principles of design that include a consistent and fluid color palette, typographic, and any additional graphical effects such as icons, photos, or animations. 
+                </p>
+                <p>Along with the frontend design concept comes the usability of the webiste. This usibility can be described using the five "E's" of usability:
+                    <dl><dt> <strong>Effective</strong></dt>
+                        <dd> The website needs to be effective in helping users meet their intended goal.
+                        </dd>
+                        <dt> <strong>Efficient</strong> </dt>
+                        <dd> The efficiency of the website is key so visitors can perform the necessary tasks with the least amount of work or steps taken.
+                        </dd>
+                        <dt> <strong>Easy to Navigate</strong> </dt>
+                        <dd> The website should be easy for the user to navigate. This is a very important in retaining users to the site. If a user is unable to easily navigate the site the first time they visit then they are less likely to return.
+                        </dd>
+                        <dt> <strong>Error-free</strong> </dt>
+                        <dd> The site should be as error-free as possible. This can be done in researching what your users are needing/wanting when coming to your site. A perfect method to acheive this is to have user internal tests prior to launch so any errors in the technical side or in the navigation of the page they can be repaired prior to launch. 
+                        </dd>
+                        <dt> <strong> Enjoyable to use, or Engaging</strong> </dt>
+                        <dd> Users will consistently return to your site if they find it fun and engaging. If site is being built for a specific community or group then it should fit the unique needs of that group/community. A prime example of this is in the MMO community, the gamers tend to want as much information upfront as possible without having to do additional research. Some of this engagement could be icons, pictures, and animations that meet the design of the MMO that it references. 
+                        </dd>
+                    </dl>
+                </p>
+                <p>
+                    There are ten different page layout tags; <strong>header, nav, main, section, article, aside, figure, blockquote, footer, and div</strong>. 
+                    The <strong>header tag</strong> helps denote the name, publisher, and marketing slogan of the web application or site. 
+                    The <strong>nav tags</strong> takes users from the current page they are on to another page within the site. The navigation tags normally include main menu, search, tools, stories, and locations.
+                    The <strong>main tag</strong> denotes the primary block for the app/site that will hold the "meat" of the website/application.
+                    The <strong>section tag</strong> is used to setup a specific group of information or links that share a common theme. 
+                    The <strong>article tag</strong> is considered a "subclass" of the section tag where they are normally within the section tags. 
+                    The <strong>aside, figure, and blockquote tags</strong> are used to help structure the article tag sections. The aside tag gives the ability to float an item to the left or right of that article. The figure tag puts media files into the section while the blockquote tag is used when a quotation or citation is longer than a paragraph. 
+                    The <strong>footer tag</strong> goes at the bottom of the main section that includes things like the legal information of the site, contact information to the website/application, and other links to potentially critical information. 
+                    The <strong>div tag</strong> helps setup dynamic content. This has not yet been covered. 
+                </p>
+                <p>
+                    <ol>
+                        <li> Anchors that link the user to <strong>external content</strong> use the "a href" tag. This creates a URL link that is specified within the tag. Opening and closing of the tag should properly describe the where the link will take the user when they click it.</li>
+                        <li> The <strong>internal anchor element</strong> links from one text item to another text item within the same page. This is done by using IDs to an attribute with its value being defined with a hastag.</li>
+                        <li> When using anchors to <strong>link from page to page</strong> it is very similar to the internal anchor element. This is done by using IDs of the page that is being linked. This can also be done using the nav tag.</li>
+                    </ol>
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy; 2023 Casey Lowe
+        </p>
+    </footer>
+</body>
+</html>

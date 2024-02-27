@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Casey Lowe</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>Casey Lowe</h1> 
+    <h2>Web Dev Concepts</h2>
+    <p>
+        The term index can be related to both websites and servers in very similar fashions. 
+        Essentially in both cases this term referenced the "homepage" of the server/website. 
+        This home page or index can be representing anything from a particular individual, a group or organization, or a company. 
+        Multiple companies use this as a default home page whenever their employees log onto their servers or VPN to their work connections. 
+    </p>   
+    <p>
+        After loading a website from either your local computer or from a directory you can to into the browser's Web Dev/Inspector Network tab to take a deeper dive into the elements of the webpage. 
+        This tab will show you all the files that are being loaded into the website that you are looking at. 
+        Some of the information with each of these files is the loading sequence of each of the items including the item that initiaties the specific sequence and the amount of time it takes to load the element. 
+        There is significantly less information that is shown when performing this exercise from a local file versus a live webiste. 
+        The request and response headers are significantly more detailed in looking at a webiste online versus a local file. 
+        For example the response header includes a "cookie" section that is not included in the local file information. 
+    </p>
+    <p>
+        In order to properly explain the differences here we must first state what the status 200 is meant to tell you. 
+        When a file linked inside of a website gives you a status of 200 it is intended to tell you that the response received is OK. 
+        This tells you that the request was successful and has all the information needed. 
+        The files main.css and main.js do not receive a 200 status code because they were not successful in receiving the information needed to "launch" them. 
+        Since the current writing for these pages are being done in html versus css or javascript there is nothing in the main files to be "read" which in turn in insufficient information to do anything with the files. 
+    </p>
+    <p>
+        A URL has multiple parts, but the main parts we are focusing on are the scheme, the subdomain, the host domain, and the resource. 
+        The scheme, also referred to as it's protocol, is the initial part of the URL. 
+        An example of this can include, http or https. 
+        This scheme sets up the rules that in turn decide how files built into the website/URL are displayed, formatted, and transferred across the internet. 
+        The subdomain is the more recognizable portion of a URL for those in a technical and nontechnical field. 
+        The most common subdomain seen throughout the web is "www".
+        The subdomain helps to specify the type of resource that the browser being used will be delivering when sending the request.
+        The host domain name is what can be referred to as the name of the website being requested. 
+        An example of this would be, http://www.google.com/, where "google" is the host domain or the name of the website. 
+        Alternatively, the host domain can also be the IP address of the particular site being requested. 
+        This was a normal practice in the "early stages" of the internet prior to it's overall purpose being changed for public consumption where now names/words are used instead. 
+    </p>
+</body>
+</html>
