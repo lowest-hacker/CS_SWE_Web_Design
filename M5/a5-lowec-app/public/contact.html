@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html id="contact">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Casey Lowe</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+<body>
+    <header> <h1>Casey Lowe</h1>
+    </header>
+    <nav>
+        <a href=index.html> Home</a>
+        <a href=gallery.html> Gallery</a>
+        <a href=contact.html> Contact</a>
+    </nav> 
+    <main>
+        <section> 
+            <h2> Contact </h2>
+            <p>
+                This form is used to get in touch with us. Please fill out the fields below and click the submit button.
+            </p>
+        
+            <form action="/submit_form" method="post">
+
+                <fieldset>
+                    <legend>Name</legend>
+                    <label class="required" for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required autofocus placeholder="John Doe">
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Email</legend>
+                    <label class="required" for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="example@example.com">
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Message</legend>
+                    <label class="required" for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required placeholder="Type your message here" min="10" max="200"></textarea>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Category</legend>
+                    <label for="category">Select Category:</label>
+                    <select id="category" name="category" required>
+                        <option value="general">General Inquiry</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="support">Technical Support</option>
+                    </select>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Contact Method</legend>
+                    <label><input type="radio" name="contact_method" value="email"> Email</label>
+                    <label><input type="radio" name="contact_method" value="phone"> Phone Call</label>
+                    <label><input type="radio" name="contact_method" value="text"> Text Message</label>
+                    <label><input type="radio" name="contact_method" value="none"> No Preference</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Interests</legend>
+                    <label><input type="checkbox" name="interests" value="sports" checked> Sports</label>
+                    <label><input type="checkbox" name="interests" value="music"> Music</label>
+                    <label><input type="checkbox" name="interests" value="movies"> Movies</label>
+                    <label><input type="checkbox" name="interests" value="books"> Books</label>
+                    <label><input type="checkbox" name="interests" value="video games"> Video Games</label>
+                    <label><input type="checkbox" name="interests" value="board games"> Board Games</label>
+                    <label><input type="checkbox" name="interests" value="outdoors"> Outdoors</label>
+                </fieldset>
+        
+                <button type="submit">Submit</button>
+        
+            </form>
+        </section>
+    </main>
+<footer>
+    <p>
+        &copy; 2023 Casey Lowe
+    </p>
+</footer>
+</body>
+</html>
